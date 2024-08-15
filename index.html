@@ -14,7 +14,7 @@
     <!-- navbar -->
     <nav>
       <div
-        class="w-10/12 max-w-[1250px] flex mx-auto justify-between items-center py-4"
+        class="w-10/12 max-w-[1250px] flex flex-row mx-auto justify-between items-center py-4"
       >
         <!-- left side logo -->
         <div>
@@ -27,10 +27,10 @@
         </div>
 
         <!-- right side links -->
-        <div class="flex items-center gap-14">
-          <ul class="flex items-center gap-8 tracking-wide">
+        <div class="flex items-center justify-center gap-14">
+          <ul class="items-center gap-8 tracking-wide hidden md:flex">
             <li class="group cursor-pointer">
-              <a href="#" class="font-mullish font-semibold text-[17px]"
+              <a href="#" class="font-mullish font-semibold text-[18px]"
                 >About</a
               >
               <div
@@ -38,7 +38,7 @@
               ></div>
             </li>
             <li class="group cursor-pointer">
-              <a href="#" class="font-mullish font-semibold text-[17px]"
+              <a href="#" class="font-mullish font-semibold text-[18px]"
                 >Skill</a
               >
               <div
@@ -46,7 +46,7 @@
               ></div>
             </li>
             <li class="group cursor-pointer">
-              <a href="#" class="font-mullish font-semibold text-[17px]">
+              <a href="#" class="font-mullish font-semibold text-[18px]">
                 Experience
               </a>
               <div
@@ -54,7 +54,7 @@
               ></div>
             </li>
             <li class="group cursor-pointer">
-              <a href="#" class="font-mullish font-semibold text-[17px]"
+              <a href="#" class="font-mullish font-semibold text-[18px]"
                 >Projects</a
               >
               <div
@@ -62,25 +62,36 @@
               ></div>
             </li>
           </ul>
-          <button
-            class="font-mullish font-semibold text-[17px] bg-black text-white py-2 px-4 rounded-xl hover:bg-slate-700 transition-all ease-linear duration-150 tracking-wide"
+          <!-- <button
+            class="font-mullish font-semibold text-[17px] bg-black text-white py-2 px-4 rounded-xl hover:bg-slate-700 transition-all ease-linear duration-150 tracking-wide hidden mobile:block"
           >
             Download CV
+          </button> -->
+          <button
+            class="font-mullish font-bold text-[17px] bg-black text-white py-2 px-4 rounded-xl hover:bg-slate-700 transition-all ease-linear duration-150 tracking-wide"
+          >
+            CV <i class="fa-solid fa-download pl-1"></i>
           </button>
         </div>
       </div>
     </nav>
 
     <!-- hero section  -->
-    <section class="w-10/12 max-w-[1250px] mx-auto my-10">
-      <div class="flex flex-row w-full justify-center items-center py-12">
+    <section class="w-10/12 max-w-[1250px] mx-auto my-4 mobile:my-10">
+      <div
+        class="flex flex-col w-full justify-center items-center py-12 tablet:flex-row gap-10"
+      >
         <!-- left part -->
-        <div class="flex flex-col gap-8">
+        <div class="flex flex-col tablet:gap-8 gap-4 max-w-[75%]">
           <div class="flex flex-col gap-0">
-            <h1 class="text-[44px] font-bold font-mullish text-gray-800">
+            <h1
+              class="text-[38px] sm:text-[44px] font-bold font-mullish text-gray-800"
+            >
               Hi, I'm Akshat 👋
             </h1>
-            <p class="font-mullish text-gray-700 w-[75%]">
+            <p
+              class="font-mullish text-gray-700 tablet:max-w-[75%] text-justify"
+            >
               I'm a full-stack developer with expertise in React.js and Node.js,
               I specialize in crafting exceptional digital experiences. My
               robust background also includes proven experience in software
@@ -116,7 +127,7 @@
                 class="fa-brands fa-square-github text-gray-600 text-3xl transition-all ease-linear hover:text-black duration-150"
               ></i
             ></a>
-            <a href="#"
+            <a href="https://www.instagram.com/akshat.jnn/" target="_blank"
               ><i
                 class="fa-brands fa-square-instagram text-gray-600 text-3xl transition-all ease-linear hover:text-black duration-150"
               ></i
@@ -126,16 +137,94 @@
 
         <!-- Right part -->
         <div class="relative pr-10">
-          <img
-            class="w-[350px] min-w-[250px] z-20"
-            src="./images/profile.jpg"
-            alt=""
-          />
+          <div class="w-[200px] mobile:w-[250px]">
+            <img
+              class="z-20 border-white border-r-8 border-b-8"
+              src="./images/profile.jpg"
+              alt=""
+              loading="lazy"
+            />
+          </div>
           <div
-            class="absolute bg-[#e5e7eb] w-[250px] h-[275px] -bottom-10 right-0 -z-10"
+            class="absolute bg-[#e5e7eb] w-[200px] h-[220px] mobile:w-[250px] mobile:h-[275px] mobile:-bottom-10 -bottom-7 mobile:right-0 right-2 -z-10"
           ></div>
         </div>
       </div>
     </section>
+
+    <!-- Skills section -->
+
+    <!-- Experience Section -->
+
+    <!-- Project Section -->
+
+    <!-- Cerification Section -->
+
+    <!-- Footer -->
+
+    <footer class="bg-white">
+      <div
+        class="flex flex-col py-8 max-w-[1080px] mx-auto justify-center items-center gap-3 px-4"
+      >
+        <h3
+          class="bg-slate-300 py-1 px-4 rounded-3xl font-mullish font-semibold tracking-wide text-lg"
+        >
+          Get in touch
+        </h3>
+        <p
+          class="max-w-[550px] text-center font-mullish text-[18px] opacity-95"
+        >
+          What’s next? Feel free to reach out to me if you're looking for a
+          developer, have a query, or simply want to connect.
+        </p>
+        <div class="py-6 space-y-2 mx-2">
+          <div class="flex justify-center items-center gap-3">
+            <i class="fa-solid fa-envelope text-[20px] mobile:text-[24px]"></i>
+            <p
+              class="font-mullish text-[20px] mobile:text-[24px] tracking-wide font-bold opacity-95"
+            >
+              <a href="mailto:Jainakshat935@gmail.com"
+                >Jainakshat935@gmail.com</a
+              >
+            </p>
+          </div>
+          <div class="flex justify-center items-center gap-3">
+            <i class="fa-solid fa-phone text-[20px] mobile:text-[24px]"></i>
+            <p
+              class="font-mullish text-[20px] mobile:text-[24px] font-bold opacity-95"
+            >
+              <a href="tel:+918817570512">+91 88175 70512</a>
+            </p>
+          </div>
+        </div>
+        <p class="font-mullish text-center">
+          You may also find me on these platforms!
+        </p>
+        <div class="flex gap-4">
+          <a
+            href="https://www.linkedin.com/in/akshat-jain-17sa/"
+            target="_blank"
+            ><i
+              class="fa-brands fa-linkedin text-gray-600 text-2xl transition-all ease-linear hover:text-black duration-150"
+            ></i
+          ></a>
+          <a href="https://github.com/akshat-jnn" target="_blank"
+            ><i
+              class="fa-brands fa-square-github text-gray-600 text-2xl transition-all ease-linear hover:text-black duration-150"
+            ></i
+          ></a>
+          <a href="https://www.instagram.com/akshat.jnn/" target="_blank"
+            ><i
+              class="fa-brands fa-square-instagram text-gray-600 text-2xl transition-all ease-linear hover:text-black duration-150"
+            ></i
+          ></a>
+        </div>
+      </div>
+      <div class="bg-slate-100 py-4 px-2">
+        <p class="text-center">
+          &#169; 2024 | Designed and coded with ❤️️ by Akshat Jain
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
