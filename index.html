@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,15 +30,7 @@
         <div class="flex items-center justify-center gap-14">
           <ul class="items-center gap-8 tracking-wide hidden md:flex">
             <li class="group cursor-pointer">
-              <a href="#" class="font-mullish font-semibold text-[18px]"
-                >About</a
-              >
-              <div
-                class="w-full h-[2.5px] group-hover:bg-slate-700 transition-all duration-200 ease-linear rounded-md"
-              ></div>
-            </li>
-            <li class="group cursor-pointer">
-              <a href="#" class="font-mullish font-semibold text-[18px]"
+              <a href="#skills" class="font-mullish font-semibold text-[18px]"
                 >Skill</a
               >
               <div
@@ -46,7 +38,7 @@
               ></div>
             </li>
             <li class="group cursor-pointer">
-              <a href="#" class="font-mullish font-semibold text-[18px]">
+              <a href="#exp" class="font-mullish font-semibold text-[18px]">
                 Experience
               </a>
               <div
@@ -61,6 +53,14 @@
                 class="w-full h-[2.5px] group-hover:bg-slate-700 transition-all duration-200 ease-linear rounded-md"
               ></div>
             </li>
+            <li class="group cursor-pointer">
+              <a href="#" class="font-mullish font-semibold text-[18px]"
+                >Certifications</a
+              >
+              <div
+                class="w-full h-[2.5px] group-hover:bg-slate-700 transition-all duration-200 ease-linear rounded-md"
+              ></div>
+            </li>
           </ul>
           <!-- <button
             class="font-mullish font-semibold text-[17px] bg-black text-white py-2 px-4 rounded-xl hover:bg-slate-700 transition-all ease-linear duration-150 tracking-wide hidden mobile:block"
@@ -70,7 +70,8 @@
           <button
             class="font-mullish font-bold text-[17px] bg-black text-white py-2 px-4 rounded-xl hover:bg-slate-700 transition-all ease-linear duration-150 tracking-wide"
           >
-            CV <i class="fa-solid fa-download pl-1"></i>
+            <a href="/File-download/Akshat_Resume_SWE.pdf" download>CV</a>
+            <i class="fa-solid fa-download pl-1"></i>
           </button>
         </div>
       </div>
@@ -83,7 +84,7 @@
       >
         <!-- left part -->
         <div class="flex flex-col tablet:gap-8 gap-4 max-w-[75%]">
-          <div class="flex flex-col gap-0">
+          <div class="flex flex-col gap-2">
             <h1
               class="text-[38px] sm:text-[44px] font-bold font-mullish text-gray-800"
             >
@@ -92,12 +93,10 @@
             <p
               class="font-mullish text-gray-700 tablet:max-w-[75%] text-justify"
             >
-              I'm a full-stack developer with expertise in React.js and Node.js,
-              I specialize in crafting exceptional digital experiences. My
-              robust background also includes proven experience in software
-              testing (Automation). Despite my extensive experience in Software
-              Testing & web application development, my passion for creating
-              innovative solutions remains as fresh and vibrant as ever
+              I’m a Software Engineer skilled in React.js and Node.js, with a
+              strong background in Software Testing (Automation). I specialize
+              in crafting exceptional digital experiences, driven by a passion
+              for innovative solutions that remains as fresh as ever.
             </p>
           </div>
 
@@ -153,16 +152,275 @@
     </section>
 
     <!-- Skills section -->
+    <section
+      id="skills"
+      class="w-10/12 max-w-[1250px] mx-auto mobile:my-10 py-12 pb-2"
+    >
+      <div class="flex flex-col justify-center items-center gap-3">
+        <h3
+          class="bg-slate-300 py-1 px-4 rounded-3xl font-mullish font-semibold tracking-wide text-lg"
+        >
+          Skills
+        </h3>
+        <p
+          class="text-center font-mullish text-[18px] opacity-95 tracking-wide"
+        >
+          The skills, tools and technologies I am really good at:
+        </p>
+      </div>
+      <div
+        class="flex flex-row flex-wrap sm:gap-16 gap-10 my-10 items-center justify-center"
+      >
+        <div
+          class="flex flex-col sm:w-20 w-16 sm:h-28 h-16 md:w-24 md:h-32 items-center justify-between"
+        >
+          <img
+            class="w-[80%]"
+            src="/images/java.png"
+            alt="java_logo"
+            loading="lazy"
+          />
+          <p class="font-mullish font-semibold tracking-wider">Java</p>
+        </div>
+
+        <div
+          class="flex flex-col w-20 h-28 md:w-24 md:h-32 items-center justify-between"
+        >
+          <img
+            class="w-[80%]"
+            src="/images/js.png"
+            alt="js_logo"
+            loading="lazy"
+          />
+          <p class="font-mullish font-semibold tracking-wider">JavaScript</p>
+        </div>
+
+        <div
+          class="flex flex-col w-20 h-28 md:w-24 md:h-32 items-center justify-between"
+        >
+          <img
+            class="w-[80%]"
+            src="/images/react.png"
+            alt="react_logo"
+            loading="lazy"
+          />
+          <p class="font-mullish font-semibold tracking-wider">React</p>
+        </div>
+        <div
+          class="flex flex-col w-20 h-28 md:w-24 md:h-32 items-center justify-between"
+        >
+          <img
+            class="w-[80%]"
+            src="/images/mysql.png"
+            alt="Mysql_logo"
+            loading="lazy"
+          />
+          <p class="font-mullish font-semibold tracking-wider">MySQL</p>
+        </div>
+
+        <div
+          class="flex flex-col w-20 h-28 md:w-24 md:h-32 items-center justify-between"
+        >
+          <img
+            class="w-[80%]"
+            src="/images/html-5.png"
+            alt="html_logo"
+            loading="lazy"
+          />
+          <p class="font-mullish font-semibold tracking-wider">HTML</p>
+        </div>
+
+        <div
+          class="flex flex-col w-20 h-28 md:w-24 md:h-32 items-center justify-between"
+        >
+          <img
+            class="w-[80%]"
+            src="/images/css.png"
+            alt="CSS_logo"
+            loading="lazy"
+          />
+          <p class="font-mullish font-semibold tracking-wider">CSS</p>
+        </div>
+
+        <div
+          class="flex flex-col w-20 h-28 md:w-24 md:h-32 items-center justify-between"
+        >
+          <img
+            class="w-[80%]"
+            src="/images/tailwindcss.svg"
+            alt="TailwindCss_logo"
+            loading="lazy"
+          />
+          <p class="font-mullish font-semibold tracking-wider text-nowrap">
+            Tailwind CSS
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col w-20 h-28 md:w-24 md:h-32 items-center justify-between"
+        >
+          <img
+            class="w-[80%]"
+            src="/images/selenium.png"
+            alt="selenium"
+            loading="lazy"
+          />
+          <p class="font-mullish font-semibold tracking-wider">Selenium</p>
+        </div>
+
+        <div
+          class="flex flex-col w-20 h-28 md:w-24 md:h-32 items-center justify-between"
+        >
+          <img
+            class="w-[80%]"
+            src="/images/Cucumber.png"
+            alt="Cucumber_logo"
+            loading="lazy"
+          />
+          <p class="font-mullish font-semibold tracking-wider">Cucumber</p>
+        </div>
+
+        <div
+          class="flex flex-col w-20 h-28 md:w-24 md:h-32 items-center justify-between"
+        >
+          <img
+            class="w-[80%]"
+            src="/images/Git.png"
+            alt="Git_logo"
+            loading="lazy"
+          />
+          <p class="font-mullish font-semibold tracking-wider">Git</p>
+        </div>
+
+        <div
+          class="flex flex-col w-20 h-28 md:w-24 md:h-32 items-center justify-between"
+        >
+          <img
+            class="w-[80%]"
+            src="/images/github.png"
+            alt="github_logo"
+            loading="lazy"
+          />
+          <p class="font-mullish font-semibold tracking-wider">GitHub</p>
+        </div>
+
+        <div
+          class="flex flex-col w-20 h-28 md:w-24 md:h-32 items-center justify-between"
+        >
+          <img
+            class="w-[80%]"
+            src="/images/automation.png"
+            alt="automation_logo"
+            loading="lazy"
+          />
+          <p class="font-mullish font-semibold tracking-wider text-nowrap">
+            Test Automation
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col w-20 h-28 md:w-24 md:h-32 items-center justify-between"
+        >
+          <img
+            class="w-[80%]"
+            src="/images/postman.png"
+            alt="postman_logo"
+            loading="lazy"
+          />
+          <p class="font-mullish font-semibold tracking-wider text-nowrap">
+            API Testing
+          </p>
+        </div>
+        <div
+          class="flex flex-col w-20 h-28 md:w-24 md:h-32 items-center justify-between"
+        >
+          <img
+            class="w-[80%]"
+            src="/images/vscode.png"
+            alt="vscode_logo"
+            loading="lazy"
+          />
+          <p class="font-mullish font-semibold tracking-wider">VS Code</p>
+        </div>
+      </div>
+    </section>
 
     <!-- Experience Section -->
+    <section id="exp" class="bg-slate-100 py-20">
+      <div class="flex flex-col justify-center items-center gap-3 px-4">
+        <h3
+          class="bg-slate-300 py-1 px-4 rounded-3xl font-mullish font-semibold tracking-wide text-lg"
+        >
+          Experience
+        </h3>
+        <p
+          class="text-center font-mullish text-[18px] opacity-95 tracking-wide"
+        >
+          Here is a quick summary of my most recent experiences:
+        </p>
+      </div>
+      <div class="flex py-8 flex-col justify-center items-center">
+        <div
+          class="flex sm:flex-row flex-col bg-white sm:max-w-[900px] py-8 sm:px-4 px-8 mx-6 gap-2 sm:gap-4 sm:justify-between justify-center shadow-md rounded-md"
+        >
+          <!-- company Logo -->
+          <div class="sm:w-[25%]">
+            <img
+              src="/images/persi-h.png"
+              alt="company_logo"
+              loading="lazy"
+              class="sm:mx-auto sm:w-[80%] w-28"
+            />
+          </div>
+
+          <div
+            class="flex sm:flex-row flex-col-reverse sm:gap-4 sm:justify-between sm:w-[75%] justify-center"
+          >
+            <!-- Role & Description -->
+            <div class="sm:w-[67%]">
+              <h2 class="font-mullish font-bold text-[1.3rem] tracking-wide">
+                Software Engineer
+              </h2>
+
+              <div class="py-2">
+                <ul class="font-mullish opacity-90 text-sm">
+                  <div class="flex gap-2">
+                    <i class="fa-solid fa-circle text-[8px] pt-2"></i>
+                    <li class="text-justify">
+                      Partnered closely with developers to proactively identify
+                      and resolve bugs during the early stages of development,
+                      achieving a remarkable 99% reduction in post-release
+                      defects.
+                    </li>
+                  </div>
+                  <div class="flex gap-2">
+                    <i class="fa-solid fa-circle text-[8px] pt-2"></i>
+                    <li class="text-justify">
+                      Actively contribute to Agile/Scrum processes, fostering
+                      effective team alignment and transparency.
+                    </li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Time period -->
+            <div class="sm:w-[33%]">
+              <p class="sm:text-center font-mullish opacity-95">
+                Sep 2023 - Present
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Project Section -->
 
     <!-- Cerification Section -->
 
     <!-- Footer -->
-
-    <footer class="bg-white">
+    <footer class="bg-white w-10/12 max-w-[1250px] mx-auto my-4 mobile:my-10">
       <div
         class="flex flex-col py-8 max-w-[1080px] mx-auto justify-center items-center gap-3 px-4"
       >
@@ -177,7 +435,7 @@
           What’s next? Feel free to reach out to me if you're looking for a
           developer, have a query, or simply want to connect.
         </p>
-        <div class="py-6 space-y-2 mx-2">
+        <div class="py-6 space-y-2 px-2">
           <div class="flex justify-center items-center gap-3">
             <i class="fa-solid fa-envelope text-[20px] mobile:text-[24px]"></i>
             <p
@@ -220,11 +478,11 @@
           ></a>
         </div>
       </div>
-      <div class="bg-slate-100 py-4 px-2">
-        <p class="text-center">
-          &#169; 2024 | Designed and coded with ❤️️ by Akshat Jain
-        </p>
-      </div>
     </footer>
+    <div class="bg-slate-100 py-4 px-2 mx-auto">
+      <p class="text-center">
+        &#169; 2024 | Designed and coded with ❤️️ by Akshat Jain
+      </p>
+    </div>
   </body>
 </html>
